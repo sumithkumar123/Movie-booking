@@ -1,0 +1,21 @@
+.bookingContainer {
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .movieGrid {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: flex-start; 
+    margin-top: 20px;
+  }
+  
+  .greeting {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: left;
+  }
+  

@@ -1,0 +1,44 @@
+.activityContainer {
+    padding: 20px;
+    width: 100%;
+    overflow-x: auto; 
+    background-color: #fff;
+}
+  
+.activityContainer h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.bookingTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.bookingTable th,
+.bookingTable td {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 12px; 
+    text-align: left;
+    white-space: nowrap; 
+}
+  
+.bookingTable th {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+  
+
+.bookingTable tr:hover {
+    background-color: #f0f0f0; 
+}
+  
+.content {
+    padding-left: 20px;
+}

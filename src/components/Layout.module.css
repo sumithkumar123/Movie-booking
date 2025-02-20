@@ -1,0 +1,185 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #fffefe;
+}
+
+.mainContent {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: #000;
+  color: #fff;
+  margin-top: 1%;
+  margin-left: 10px;
+  margin-bottom: 1%;
+  margin-right: 10px;
+  width: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.link,
+.activeLink {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  font-size: 1.1em;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.activeLink {
+  background-color: #fff;
+  color: #000;
+}
+
+.navIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.searchBar input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  background-color: #6d6a6a43;
+  border: 1px solid #e4e0e0;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  color: black;
+  font-weight: 300;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #999;
+  pointer-events: none;
+}
+
+.userContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.movieHeader {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.movieHeaderImage {
+  width: 86%;
+  height: 100%;
+  object-fit: fit;
+  display: block;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 8px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.user button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.movieDetails {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.dayNightIcons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.dayNightIcons img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.movieTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-left: 10px;
+}
